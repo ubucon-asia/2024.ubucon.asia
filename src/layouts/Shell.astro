@@ -1,0 +1,21 @@
+---
+import "vanilla-framework/_index.scss";
+import GlobalNavigation from "../components/GlobalNavigation";
+import Layout from "./Layout.astro";
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+import { config } from "../config";
+---
+
+<Layout title={title}>
+	<GlobalNavigation
+		logoTitle={title}
+		navItems={config.navigation}
+		navItemsRight={config.navigationRight}
+	/>
+	<slot />
+</Layout>
