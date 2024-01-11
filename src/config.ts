@@ -3,7 +3,7 @@ export const config = {
     navigation: [
         {
             label: 'About',
-            url: '#'
+            url: '/about'
         },
         {
             label: 'Venue & Travel',

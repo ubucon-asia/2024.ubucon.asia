@@ -1,0 +1,26 @@
+---
+import "vanilla-framework/_index.scss";
+import GlobalNavigation from "../components/GlobalNavigation";
+import Shell from "./Shell.astro";
+import { Strip, Col, Row } from "@canonical/react-components";
+
+interface Props {
+    title: string;
+}
+
+const { frontmatter } = Astro.props;
+---
+
+<Shell title={frontmatter.title}>
+    <Strip bordered shallow colSize={8} element="section">
+        <h1>{frontmatter.title}</h1>
+        <p>{frontmatter.description}</p>
+    </Strip>
+    <Row>
+        <Row>
+            <Col size={12}>
+                <slot />
+            </Col>
+        </Row>
+    </Row>
+</Shell>
