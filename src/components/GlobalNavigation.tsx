@@ -19,7 +19,7 @@ export default function GlobalNavigation(props: GlobalNavigationProps) {
 			logo={{
 				src: 'https://assets.ubuntu.com/v1/82818827-CoF_white.svg',
 				title: props.logoTitle,
-				url: '#'
+				url: '/'
 			}}
 			theme={Theme.DARK}
 		/>
