@@ -3,6 +3,7 @@ import Shell from "../layouts/Shell.astro";
 import { config } from "../config";
 import { Strip, Col, Row, List } from "@canonical/react-components";
 import uca24logo from "./logo.svg";
+import logoPlaceHolder from "./logo_placeholder.svg";
 ---
 
 <Shell title={config.siteTitle}>
@@ -167,6 +168,135 @@ import uca24logo from "./logo.svg";
         <Row>
             <Col size={12}>
                 <a href="" class="p-button">View more speakers</a>
+            </Col>
+        </Row>
+    </Strip>
+    <Strip type="light">
+        <h2>Sponsors</h2>
+        <Row>
+            <hr class="p-rule" />
+        </Row>
+        <Row>
+            <Col size={3}>
+                <h3>Diamond</h3>
+            </Col>
+            <Col size={6}>
+                <img src={logoPlaceHolder.src} />
+            </Col>
+        </Row>
+
+        <Row>
+            <hr class="p-rule" />
+        </Row>
+        <Row>
+            <Col size={3}>
+                <h3>Gold</h3>
+            </Col>
+            <Col size={9}>
+                <Row>
+                    <Col size={4}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={4}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={4}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                </Row>
+            </Col>
+        </Row>
+
+        <Row>
+            <hr class="p-rule" />
+        </Row>
+        <Row>
+            <Col size={3}>
+                <h3>Silver</h3>
+            </Col>
+            <Col size={9}>
+                <Row>
+                    <Col size={3}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={3}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={3}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={3}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                </Row>
+            </Col>
+        </Row>
+
+        <Row>
+            <hr class="p-rule" />
+        </Row>
+        <Row>
+            <Col size={3}>
+                <h3>Bronze</h3>
+            </Col>
+            <Col size={9}>
+                <Row>
+                    <Col size={2}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={2}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={2}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={2}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={2}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={2}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={2}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                </Row>
+            </Col>
+        </Row>
+
+        <Row>
+            <hr class="p-rule" />
+        </Row>
+        <Row>
+            <Col size={3}>
+                <h3>Supporter</h3>
+            </Col>
+            <Col size={9}>
+                <Row>
+                    <Col size={1}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={1}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={1}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={1}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={1}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={1}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                    <Col size={1}>
+                        <img src={logoPlaceHolder.src} />
+                    </Col>
+                </Row>
             </Col>
         </Row>
     </Strip>
