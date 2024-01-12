@@ -4,9 +4,14 @@ import GlobalNavigation from "../components/GlobalNavigation";
 import Shell from "./Shell.astro";
 import { Strip, Col, Row } from "@canonical/react-components";
 
-interface Props {
-    title: string;
-}
+import type { MarkdownLayoutProps } from 'astro';
+
+type Props = MarkdownLayoutProps<{
+  // Define frontmatter props here
+  title: string;
+  description: string;
+}>;
+
 
 const { frontmatter } = Astro.props;
 ---
