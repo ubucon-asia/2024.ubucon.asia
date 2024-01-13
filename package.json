@@ -15,11 +15,15 @@
     "@astrojs/react": "^3.0.9",
     "@canonical/react-components": "^0.47.1",
     "astro": "^4.1.1",
+    "jsdom": "^23.2.0",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.69.7",
     "typescript": "^5.3.3",
     "vanilla-framework": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.6"
   }
 }

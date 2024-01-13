@@ -1,5 +1,9 @@
 export const config = {
     siteTitle: "UbuCon Asia 2024",
+    blog:{
+        rssFeedUrl:"https://blog.ubucon.asia/tags/ubucon/index.xml",
+        viewMoreUrl: "https://blog.ubucon.asia/"
+    },
     navigation: [
         {
             label: 'About',
@@ -19,7 +23,7 @@ export const config = {
         },
         {
             label: 'News',
-            url: '#'
+            url: 'https://blog.ubucon.asia/'
         },
         {
             label: 'Docs',

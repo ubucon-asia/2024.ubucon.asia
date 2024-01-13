@@ -1,0 +1,44 @@
+---
+import { config } from "../config";
+import { Strip, Col, Row } from "@canonical/react-components";
+import jsdom from "jsdom";
+const { JSDOM } = jsdom;
+const window = new JSDOM().window;
+const blogFeedRaw = await fetch(config.blog.rssFeedUrl);
+const blogFeedXml = new window.DOMParser().parseFromString(
+    await blogFeedRaw.text(),
+    "text/xml",
+);
+const blogItemsXml = blogFeedXml.querySelectorAll("item");
+const blogItems = new Array();
+blogItemsXml.forEach((el: Element) => {
+    blogItems.push({
+        title: el.querySelector("title")?.innerHTML,
+        link: el.querySelector("link")?.innerHTML,
+        date: el.querySelector("pubDate")?.innerHTML,
+    });
+});
+---
+
+<Strip shallow bordered>
+    <h4>News from our blog</h4>
+    <Row>
+        {
+            blogItems.map((item) => (
+                <Col size={4}>
+                    <a href={item.link}>
+                        <h3>{item.title}</h3>
+                    </a>
+                    <p>{item.date}</p>
+                </Col>
+            ))
+        }
+    </Row>
+    <Row>
+        <Col size={12}>
+            <a href={config.blog.viewMoreUrl} class="p-button"
+                >View more news on blog</a
+            >
+        </Col>
+    </Row>
+</Strip>
