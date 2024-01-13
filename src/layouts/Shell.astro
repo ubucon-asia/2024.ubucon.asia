@@ -12,10 +12,53 @@ import { config } from "../config";
 ---
 
 <Layout title={title}>
-	<GlobalNavigation
-		logoTitle={config.siteTitle}
-		navItems={config.navigation}
-		navItemsRight={config.navigationRight}
-	/>
-	<slot />
+	<div class="l-site">
+		<GlobalNavigation
+			logoTitle={config.siteTitle}
+			navItems={config.navigation}
+			navItemsRight={config.navigationRight}
+		/>
+		<slot />
+		<footer class="l-footer--sticky p-strip--dark">
+			<div class="row">
+				
+							{
+								config.footer.organizers.map((item) => (
+								<div class="col-small-2 col-medium-3 col-3">
+										<a href={item.link}>
+											<img
+												class="p-logo-section__logo"
+												src={item.logoImage}
+												alt={item.name}
+											/>
+										</a>
+									</div>
+								))
+							}
+				
+			</div>
+			<nav class="row" aria-label="Footer">
+				<div class="has-cookie">
+					<p>
+						{config.footer.copyright}
+					</p>
+					<ul class="p-inline-list--middot">
+						<li class="p-inline-list__item">
+							<a href={config.footer.contactUs}
+								><small>Contact us with Email</small></a
+							>
+						</li>
+						<li class="p-inline-list__item">
+							<a href={config.footer.srcRepoUrl}
+								><small>See source code</small></a
+							>
+						</li>
+					</ul>
+					<span class="u-off-screen"
+						><a href="#">Go to the top of the page</a></span
+					>
+				</div>
+			</nav>
+		</footer>
+	</div>
 </Layout>
