@@ -23,14 +23,18 @@ export const config = {
             label: 'Venue & Travel',
             items: [
                 {
-                  label: 'Venue & Safety',
-                  url: '/venue-and-travel/venue-and-safety'
+                    label: 'Venue & Safety',
+                    url: '/venue-and-travel/venue-and-safety'
                 },
                 {
                     label: 'Getting to the city',
                     url: '/venue-and-travel/getting-to-city'
-                  }
-              ],
+                },
+                {
+                    label: 'Exploring the city',
+                    url: '/venue-and-travel/explore-city'
+                }
+            ],
         },
         {
             label: 'Programs',
