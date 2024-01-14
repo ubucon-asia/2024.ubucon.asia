@@ -25,7 +25,11 @@ export const config = {
                 {
                   label: 'Venue & Safety',
                   url: '/venue-and-travel/venue-and-safety'
-                }
+                },
+                {
+                    label: 'Getting to the city',
+                    url: '/venue-and-travel/getting-to-city'
+                  }
               ],
         },
         {
