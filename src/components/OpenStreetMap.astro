@@ -1,0 +1,12 @@
+---
+const { osmEmbedQuery } = Astro.props;
+const osmEmbedUrl = `https://www.openstreetmap.org/export/embed.html?${osmEmbedQuery}`;
+---
+
+<div>
+    <iframe
+        width="100%"
+        height="400"
+        src={osmEmbedUrl}
+        style="border: 1px solid black"></iframe>
+</div>

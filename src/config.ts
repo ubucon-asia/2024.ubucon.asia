@@ -21,7 +21,12 @@ export const config = {
         },
         {
             label: 'Venue & Travel',
-            url: '#'
+            items: [
+                {
+                  label: 'Venue & Safety',
+                  url: '/venue-and-travel/venue-and-safety'
+                }
+              ],
         },
         {
             label: 'Programs',
