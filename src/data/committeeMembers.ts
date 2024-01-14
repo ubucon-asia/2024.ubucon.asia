@@ -28,7 +28,7 @@ export const committeeMembers = [
     },
     {
         name: "Aryan Kaushik",
-        team: "Local team & Ubuntu India",
+        team: "Local team & Ubuntu India, GNOME Foundation member, GNOME UG Delhi-NCR",
         role: "Local team Chief, Sponsorship, Venue, Content",
         profileImageUrl: "https://avatars.githubusercontent.com/u/34372791?v=4",
     },
@@ -47,20 +47,20 @@ export const committeeMembers = [
     {
         name: "Devanshu Saxena",
         team: "Local team & Ubuntu India",
-        role: "?", //FIXME: Add role
+        role: "Outreach, Volunteers",
         profileImageUrl: "https://avatars.githubusercontent.com/u/86067292?v=4",
     },
     {
         name: "Deepesha Burse",
         team: "Local team & Ubuntu India, GNOME Foundation member",
-        role: "?", //FIXME: Add role
+        role: "Sponsorship, Content",
         profileImageUrl: "https://avatars.githubusercontent.com/u/87636253?v=4",
     },
     {
         name: "Srijan Srivastava",
         team: "Local team & Ubuntu India, PythonDelhi",
-        role: "Sponsorship",
-        profileImageUrl: uca24Logo.src,
+        role: "Sponsorship, Outreach, Volunteers",
+        profileImageUrl: "https://avatars.githubusercontent.com/u/98090916?v=4",
     },
     {
         name: "Rudra Saraswat",
