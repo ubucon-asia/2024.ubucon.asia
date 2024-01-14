@@ -1,10 +1,30 @@
 import UbuntuIndiaLogo from "@assets/UbuntuIndia.svg"
+import JaipurPhoto from "@assets/jaipur.jpg"
 
 export const config = {
     siteTitle: "UbuCon Asia 2024",
     blog: {
         rssFeedUrl: "https://blog.ubucon.asia/tags/uca24/index.xml",
         viewMoreUrl: "https://blog.ubucon.asia/tags/uca24"
+    },
+    cityBanner: {
+        title: "Let's meet in the pink city of innovation!",
+        description: 'Learn about the Jaipur, India the city where UbuCon Asia 2024 will be held. And plan your trip today!',
+        image: JaipurPhoto.src,
+        buttons: [
+            {
+                label: 'Venue & Safety',
+                url: '/venue-and-travel/venue-and-safety'
+            },
+            {
+                label: 'Getting to the city',
+                url: '/venue-and-travel/getting-to-city'
+            },
+            {
+                label: 'Exploring the city',
+                url: '/venue-and-travel/explore-city'
+            },
+        ]
     },
     footer: {
         copyright: "© 2024-Present UbuCon Asia Committee. Ubuntu and Canonical are registered trademarks of Canonical Ltd. Unless otherwise noted, content licensed under CC BY 4.0 source code under MIT.",
