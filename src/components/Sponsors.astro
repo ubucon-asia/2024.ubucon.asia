@@ -1,0 +1,44 @@
+---
+import { sponsors } from "@data/sponsors";
+import { Strip, Col, Row } from "@canonical/react-components";
+import SponsorLogoAndModal from "@components/SponsorLogoAndModal.tsx";
+---
+
+<Strip type="light">
+    <h2>Our Sponsors</h2>
+    {
+        sponsors.map((level) => (
+            <>
+                <Row>
+                    <hr class="p-rule" />
+                </Row>
+                <Row>
+                    <Col size={3}>
+                        <h3>{level.sponsorLevelName}</h3>
+                    </Col>
+                    <Col size={9}>
+                        <Row>
+                            {level.list.map((item) => (
+                                <Col
+                                    style={{ paddingTop: 10 }}
+                                    size={level.sizeOnLargeScreen}
+                                    medium={level.sizeOnMediumScreen}
+                                    small={level.sizeOnSmallScreen}
+                                >
+                                    <SponsorLogoAndModal
+                                        name={item.name}
+                                        logoImageSrc={item.logoUrl}
+                                        description={item.description}
+                                        url={item.url}
+                                        level={level.sponsorLevelName}
+                                        client:only="react"
+                                    />
+                                </Col>
+                            ))}
+                        </Row>
+                    </Col>
+                </Row>
+            </>
+        ))
+    }
+</Strip>

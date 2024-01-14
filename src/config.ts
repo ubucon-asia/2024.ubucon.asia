@@ -88,7 +88,16 @@ export const config = {
         },
         {
             label: 'Sponsors/Patrons',
-            url: '#'
+            items: [
+                {
+                    label: 'Become a sponsor',
+                    url: '/sponsors/become-a-sponsor'
+                },
+                {
+                    label: 'Our sponsors',
+                    url: '/sponsors/our-sponsors'
+                }
+            ]
         },
         {
             label: 'News',
