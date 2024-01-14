@@ -35,6 +35,10 @@ export const config = {
                     url: '/venue-and-travel/explore-city'
                 },
                 {
+                    label: 'Accommodations',
+                    url: '/venue-and-travel/accommodations'
+                },
+                {
                     label: 'Travel grant',
                     url: '/venue-and-travel/travel-grant'
                 }
