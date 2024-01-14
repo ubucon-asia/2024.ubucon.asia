@@ -33,6 +33,10 @@ export const config = {
                 {
                     label: 'Exploring the city',
                     url: '/venue-and-travel/explore-city'
+                },
+                {
+                    label: 'Travel grant',
+                    url: '/venue-and-travel/travel-grant'
                 }
             ],
         },
