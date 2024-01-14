@@ -1,0 +1,30 @@
+---
+import { committeeMembers } from "@data/committeeMembers";
+import { Col, Row } from "@canonical/react-components";
+---
+
+<Row>
+    {
+        committeeMembers.map((member) => (
+            <Col size={4} medium={3}>
+                <div class="p-media-object--large">
+                    <img
+                        src={member.profileImageUrl}
+                        class="p-media-object__image is-round"
+                        alt={member.name}
+                    />
+                    <div class="p-media-object__details">
+                        <h4>{member.name}</h4>
+                        <p class="p-media-object__content">
+                            {member.team}
+                        </p>
+                        <p class="p-media-object__content">
+                            {member.role}
+                        </p>
+                        <ul class="p-media-object__meta-list" />
+                    </div>
+                </div>
+            </Col>
+        ))
+    }
+</Row>
