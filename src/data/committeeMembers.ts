@@ -61,5 +61,11 @@ export const committeeMembers = [
         team: "Local team & Ubuntu India, PythonDelhi",
         role: "Sponsorship",
         profileImageUrl: uca24Logo.src,
+    },
+    {
+        name: "Rudra Saraswat",
+        team: "Local team & Ubutnu Unity",
+        role: "Sponsorship, Content",
+        profileImageUrl: "https://avatars.githubusercontent.com/u/26926757?v=4",
     }
 ]
