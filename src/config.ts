@@ -1,4 +1,4 @@
-import UbuntuIndiaLogo from "./UbuntuIndia.svg"
+import UbuntuIndiaLogo from "@assets/UbuntuIndia.svg"
 
 export const config = {
     siteTitle: "UbuCon Asia 2024",
