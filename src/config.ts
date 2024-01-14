@@ -3,8 +3,8 @@ import UbuntuIndiaLogo from "@assets/UbuntuIndia.svg"
 export const config = {
     siteTitle: "UbuCon Asia 2024",
     blog: {
-        rssFeedUrl: "https://blog.ubucon.asia/tags/ubucon/index.xml",
-        viewMoreUrl: "https://blog.ubucon.asia/"
+        rssFeedUrl: "https://blog.ubucon.asia/tags/uca24/index.xml",
+        viewMoreUrl: "https://blog.ubucon.asia/tags/uca24"
     },
     footer: {
         copyright: "© 2024-Present UbuCon Asia Committee. Ubuntu and Canonical are registered trademarks of Canonical Ltd. Unless otherwise noted, content licensed under CC BY 4.0 source code under MIT.",
@@ -58,7 +58,7 @@ export const config = {
         },
         {
             label: 'Docs',
-            url: '#'
+            url: 'https://docs.ubucon.asia'
         }
     ],
     navigationRight: [
