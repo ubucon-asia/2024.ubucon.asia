@@ -4,14 +4,15 @@ import GlobalNavigation from "@components/GlobalNavigation.tsx";
 import Layout from "@layouts/Layout.astro";
 
 interface Props {
-	title: string;
+	title?: string;
+	description?: string;
 }
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
 import { config } from "../config";
 ---
 
-<Layout title={title}>
+<Layout title={title ? `${title} - ${config.siteTitle}` : config.siteTitle} description={description ? description : config.siteDescription}>
 	<div class="l-site">
 		<GlobalNavigation
 			logoTitle={config.siteTitle}

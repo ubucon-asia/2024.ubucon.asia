@@ -15,7 +15,7 @@ type Props = MarkdownLayoutProps<{
 const { frontmatter } = Astro.props;
 ---
 
-<Shell title={frontmatter.title}>
+<Shell title={frontmatter.title} description={frontmatter.description}>
     <Strip bordered shallow colSize={8} element="section">
         <h1>{frontmatter.title}</h1>
         <p>{frontmatter.description}</p>
