@@ -9,10 +9,10 @@ export const sponsors = [
         sizeOnSmallScreen: 6 as ColSize,
         list: [
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             }
         ]
     },
@@ -23,16 +23,16 @@ export const sponsors = [
         sizeOnSmallScreen: 3 as ColSize,
         list: [
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             }
         ]
     },
@@ -43,22 +43,22 @@ export const sponsors = [
         sizeOnSmallScreen: 3 as ColSize,
         list: [
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             }
         ]
     },
@@ -69,28 +69,28 @@ export const sponsors = [
         sizeOnSmallScreen: 2 as ColSize,
         list: [
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             }
         ]
     },
@@ -101,28 +101,28 @@ export const sponsors = [
         sizeOnSmallScreen: 1 as ColSize,
         list: [
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             }
         ]
     },
@@ -133,28 +133,28 @@ export const sponsors = [
         sizeOnSmallScreen: 1 as ColSize,
         list: [
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             },
             {
-                name: "Sponsor name",
+                name: "Become a sponsor!",
                 logoUrl: logoPlaceHolder.src,
-                url: "https://www.ubuntu.com/",
-                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
+                url: "/sponsors/become-a-sponsor",
+                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             }
         ]
     }
