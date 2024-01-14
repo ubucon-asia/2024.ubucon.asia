@@ -67,7 +67,24 @@ export const config = {
         },
         {
             label: 'Programs',
-            url: '#'
+            items: [
+                {
+                    label: 'Important dates',
+                    url: '/programs/important-dates'
+                },
+                {
+                    label: 'Call for proposals (TBD)',
+                    url: '#'
+                },
+                {
+                    label: 'Schedules (TBD)',
+                    url: '#'
+                },
+                {
+                    label: 'Social events',
+                    url: '/programs/social-events'
+                }
+            ]
         },
         {
             label: 'Sponsors/Patrons',
