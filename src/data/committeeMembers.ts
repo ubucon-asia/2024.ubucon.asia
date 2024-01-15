@@ -36,7 +36,7 @@ export const committeeMembers = [
         name: "Bhavanishankar Ravindra",
         team: "Local team & Ubuntu India, Ubuntu LoCo Council",
         role: "Local team Chief, Sponsorship, Venue, Content",
-        profileImageUrl: BhavaniProfile.src,
+        profileImageUrl: "https://avatars.githubusercontent.com/u/4153385?v=4",
     },
     {
         name: "Asmit Malakannawar",
