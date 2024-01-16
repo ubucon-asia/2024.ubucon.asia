@@ -23,7 +23,7 @@ export const committeeMembers = [
     {
         name: "RJ Hsiao",
         team: "Global team & Ubuntu Taiwan",
-        role: "Marketing",
+        role: "Content",
         profileImageUrl: "https://avatars.githubusercontent.com/u/236116?v=4",
     },
     {
