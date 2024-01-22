@@ -1,5 +1,6 @@
 import UbuntuIndiaLogo from "@assets/UbuntuIndia.svg"
 import UbuConAsiaCommitteeLogo from "@assets/UbuConAsiaCommittee.svg"
+import OSCollectiveLogo from "@assets/oscollective.webp";
 import JaipurPhoto from "@assets/jaipur.jpg"
 
 export const config = {
@@ -34,7 +35,8 @@ export const config = {
         srcRepoUrl: "https://github.com/ubucon-asia/2024.ubucon.asia",
         organizers: [
             { name: "Ubuntu India", logoImage: UbuntuIndiaLogo.src, link: "https://discourse.ubuntu.com/t/ubuntu-india-local-community-ubuntu-in/39994" },
-            { name: "UbuCon Asia Committee", logoImage: UbuConAsiaCommitteeLogo.src, link: "https://www.ubucon.asia" }
+            { name: "UbuCon Asia Committee", logoImage: UbuConAsiaCommitteeLogo.src, link: "https://www.ubucon.asia" },
+            { name: "Open Source Collective", logoImage: OSCollectiveLogo.src, link: "https://www.oscollective.org/" }
         ]
     },
     navigation: [
