@@ -12,7 +12,10 @@ const { title, description } = Astro.props;
 import { config } from "../config";
 ---
 
-<Layout title={title ? `${title} - ${config.siteTitle}` : config.siteTitle} description={description ? description : config.siteDescription}>
+<Layout
+	title={title ? `${title} - ${config.siteTitle}` : config.siteTitle}
+	description={description ? description : config.siteDescription}
+>
 	<div class="l-site">
 		<GlobalNavigation
 			logoTitle={config.siteTitle}
@@ -22,20 +25,24 @@ import { config } from "../config";
 		/>
 		<slot />
 		<footer class="l-footer--sticky p-strip--dark">
-			<div class="row">
-				{
-					config.footer.organizers.map((item) => (
-						<div class="col-small-2 col-medium-3 col-3">
-							<a href={item.link}>
-								<img style={{height: "60px"}}
-									class="p-logo-section__logo"
-									src={item.logoImage}
-									alt={item.name}
-								/>
-							</a>
-						</div>
-					))
-				}
+			<div class="u-fixed-width">
+				<div class="p-logo-section--dense">
+					<div class="p-logo-section__items">
+						{
+							config.footer.organizers.map((item) => (
+								<div class="p-logo-section__item" >
+									<a href={item.link}>
+										<img style={{maxHeight: "60px", paddingTop: "10px"}}
+											class="p-logo-section__logo"
+											src={item.logoImage}
+											alt={item.name}
+										/>
+									</a>
+								</div>
+							))
+						}
+					</div>
+				</div>
 			</div>
 			<nav class="row" aria-label="Footer">
 				<div class="has-cookie">
