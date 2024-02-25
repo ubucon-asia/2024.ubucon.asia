@@ -14,7 +14,13 @@ type Props = MarkdownLayoutProps<{
 
 const { frontmatter } = Astro.props;
 ---
-
+<style is:global>
+    table {
+        display: block;
+        overflow-x: auto;
+        word-break: keep-all;
+    }
+</style>
 <Shell title={frontmatter.title} description={frontmatter.description}>
     <Strip bordered shallow colSize={8} element="section">
         <h1>{frontmatter.title}</h1>
