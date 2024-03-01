@@ -24,12 +24,12 @@ blogItemsXml.forEach((el: Element) => {
     <h4>News from our blog</h4>
     <Row>
         {
-            blogItems.map((item) => (
+            blogItems.slice(0, 2).map((item) => (
                 <Col size={4}>
                     <a href={item.link}>
                         <h3>{item.title}</h3>
                     </a>
-                    <p>{item.date}</p>
+                    <p class="auto-format-datetime">{item.date}</p>
                 </Col>
             ))
         }
@@ -42,3 +42,9 @@ blogItemsXml.forEach((el: Element) => {
         </Col>
     </Row>
 </Strip>
+
+<script>
+document.querySelectorAll(".auto-format-datetime").forEach((element)=>{
+    element.innerHTML = new Date(element.innerHTML).toLocaleString();
+});
+</script>
