@@ -77,12 +77,12 @@ export const config = {
                     url: '/programs/important-dates'
                 },
                 {
-                    label: 'Call for proposals (TBD)',
-                    url: '#'
+                    label: 'Call for proposals',
+                    url: 'https://events.canonical.com/event/47/'
                 },
                 {
                     label: 'Schedules (TBD)',
-                    url: '#'
+                    url: 'https://events.canonical.com/event/47/ngtimetable/'
                 },
                 {
                     label: 'Social events',
