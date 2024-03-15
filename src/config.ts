@@ -66,6 +66,10 @@ export const config = {
                 {
                     label: 'Travel grant',
                     url: '/venue-and-travel/travel-grant'
+                },
+                {
+                    label: 'Visa Process',
+                    url: '/venue-and-travel/visa-process'
                 }
             ],
         },
