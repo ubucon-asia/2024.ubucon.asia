@@ -1,5 +1,6 @@
 import type { ColSize } from "@canonical/react-components"
 import logoPlaceHolder from "@assets/logo_placeholder.svg";
+import CanonicalUbuntuLogo from "@assets/sponsors/canonical_ubuntu.svg";
 
 export const sponsors = [
     {
@@ -9,10 +10,10 @@ export const sponsors = [
         sizeOnSmallScreen: 6 as ColSize,
         list: [
             {
-                name: "Become a sponsor!",
-                logoUrl: logoPlaceHolder.src,
-                url: "/sponsors/become-a-sponsor",
-                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
+                name: "Canonical",
+                logoUrl: CanonicalUbuntuLogo.src,
+                url: "https://www.ubuntu.com/",
+                description: "Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars, and advanced robots. Canonical provides enterprise security, support, and services to commercial users of Ubuntu."
             }
         ]
     },
