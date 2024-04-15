@@ -139,5 +139,13 @@ export const sponsors = [
                 description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
             }
         ]
+    },
+    {
+        sponsorLevelName: "Community Partners",
+        sizeOnLargeScreen: 2 as ColSize,
+        sizeOnMediumScreen: 2 as ColSize,
+        sizeOnSmallScreen: 1 as ColSize,
+        list: [
+        ]
     }
 ]
