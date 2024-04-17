@@ -2,6 +2,7 @@ import type { ColSize } from "@canonical/react-components"
 import logoPlaceHolder from "@assets/logo_placeholder.svg";
 import CanonicalUbuntuLogo from "@assets/sponsors/canonical_ubuntu.svg";
 import OnlyOffice from "@assets/sponsors/onlyoffice.svg";
+import FossUnited from "@assets/sponsors/fossunited.svg";
 
 export const sponsors = [
     {
@@ -121,10 +122,10 @@ export const sponsors = [
                 description: "ONLYOFFICE by Ascensio System SIA offers a powerful office suite that comprises online editors for text documents, spreadsheets and presentations highly compatible with Microsoft Office and OpenDocument file formats."
             },
             {
-                name: "Become a sponsor!",
-                logoUrl: logoPlaceHolder.src,
-                url: "/sponsors/become-a-sponsor",
-                description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
+                name: "FOSS United",
+                logoUrl: FossUnited.src,
+                url: "https://fossunited.org/",
+                description: "FOSS United is a non-profit foundation that aims at promoting and strengthening the Free and Open Source Software (FOSS) ecosystem in India."
             },
             {
                 name: "Become a sponsor!",
