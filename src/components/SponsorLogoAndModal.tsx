@@ -7,14 +7,18 @@ type SponsorLogoAndModalProps = {
     logoImageSrc: string,
     description: string,
     url: string,
+    showPopup: Boolean
 }
 export default function SponsorLogoAndModal(props: SponsorLogoAndModalProps) {
     const [modalOpen, setModalOpen] = useState(false);
     const closeHandler = () => setModalOpen(false);
     return (
         <>
-            <img src={props.logoImageSrc} alt={props.name} onClick={() => setModalOpen(true)} />
-            {modalOpen ? <Modal close={closeHandler} title="About the sponsor" buttonRow={<>
+            <img src={props.logoImageSrc} alt={props.name} 
+                onClick={() => {
+                    if(props.showPopup){ setModalOpen(true); }
+                    }} />
+            {modalOpen && props.showPopup ? <Modal close={closeHandler} title="About the sponsor" buttonRow={<>
                 <Button appearance="positive" element="a" href={props.url}>
                     Visit website
                 </Button>

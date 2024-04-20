@@ -10,6 +10,7 @@ export const sponsors = [
         sizeOnLargeScreen: 6 as ColSize,
         sizeOnMediumScreen: 6 as ColSize,
         sizeOnSmallScreen: 6 as ColSize,
+        showPopup: true,
         list: [
             {
                 name: "Canonical",
@@ -24,6 +25,7 @@ export const sponsors = [
         sizeOnLargeScreen: 4 as ColSize,
         sizeOnMediumScreen: 4 as ColSize,
         sizeOnSmallScreen: 3 as ColSize,
+        showPopup: true,
         list: [
             {
                 name: "Become a sponsor!",
@@ -50,6 +52,7 @@ export const sponsors = [
         sizeOnLargeScreen: 3 as ColSize,
         sizeOnMediumScreen: 3 as ColSize,
         sizeOnSmallScreen: 2 as ColSize,
+        showPopup: true,
         list: [
             {
                 name: "Become a sponsor!",
@@ -82,6 +85,7 @@ export const sponsors = [
         sizeOnLargeScreen: 2 as ColSize,
         sizeOnMediumScreen: 2 as ColSize,
         sizeOnSmallScreen: 1 as ColSize,
+        showPopup: true,
         list: [
             {
                 name: "Become a sponsor!",
@@ -114,6 +118,7 @@ export const sponsors = [
         sizeOnLargeScreen: 2 as ColSize,
         sizeOnMediumScreen: 2 as ColSize,
         sizeOnSmallScreen: 1 as ColSize,
+        showPopup: true,
         list: [
             {
                 name: "ONLYOFFICE",
@@ -146,7 +151,14 @@ export const sponsors = [
         sizeOnLargeScreen: 2 as ColSize,
         sizeOnMediumScreen: 2 as ColSize,
         sizeOnSmallScreen: 1 as ColSize,
+        showPopup: false,
         list: [
+            {
+                name: "Community partner",
+                logoUrl: logoPlaceHolder.src,
+                url: "#",
+                description: "#"
+            }
         ]
     }
 ]
