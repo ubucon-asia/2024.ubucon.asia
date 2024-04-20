@@ -104,6 +104,10 @@ export const config = {
                 {
                     label: 'Our sponsors',
                     url: '/sponsors/our-sponsors'
+                },
+                {
+                    label: 'Become a patron',
+                    url: '/sponsors/patrons'
                 }
             ]
         },
