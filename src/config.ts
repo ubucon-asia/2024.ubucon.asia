@@ -123,7 +123,7 @@ export const config = {
     navigationRight: [
         {
             label: 'Register',
-            url: '#'
+            url: 'https://konfhub.com/uca'
         }
     ]
 }
