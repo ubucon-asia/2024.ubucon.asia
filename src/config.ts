@@ -5,7 +5,7 @@ import JaipurPhoto from "@assets/jaipur.jpg"
 
 export const config = {
     siteTitle: "UbuCon Asia 2024",
-    siteDescription: "JECRC University, Jaipur, India | August 31st - September 2nd",
+    siteDescription: "JECRC Foundation, Jaipur, India | August 31st - September 2nd",
     blog: {
         rssFeedUrl: "https://blog.ubucon.asia/tags/uca24/index.xml",
         viewMoreUrl: "https://blog.ubucon.asia/tags/uca24"
