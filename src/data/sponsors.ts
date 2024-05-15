@@ -108,50 +108,74 @@ export const sponsors = [
             {
                 name: "Alias",
                 logoUrl: Alias.src,
+                url: "#",
+                description: ""
             },
             {
                 name: "AWS User Group Jaipur",
                 logoUrl: AWSUGJaipur.src,
+                url: "#",
+                description: ""
             },
             {
                 name: "Cloud Native Hoogly",
                 logoUrl: CloudNativeHoogly.src,
+                url: "#",
+                description: ""
             },
             {
                 name: "Cloud Native Community Groups Jaipur",
                 logoUrl: CloudNativeCommunityGroupsJaipur.src,
+                url: "#",
+                description: ""
             },
             {
                 name: "Debian India",
                 logoUrl: DebianIndia.src,
+                url: "#",
+                description: ""
             },
             {
                 name: "GDSC AKGEC",
                 logoUrl: GDSCAKGEC.src,
+                url: "#",
+                description: ""
             },
             {
                 name: "GDSC JECRC",
                 logoUrl: GDCSJECRC.src,
+                url: "#",
+                description: ""
             },
             {
                 name: "Hug Jaipur",
                 logoUrl: HugJaipur.src,
+                url: "#",
+                description: ""
             },
             {
                 name: "Open Source Community Development",
                 logoUrl: OCD.src,
+                url: "#",
+                description: ""
             },
             {
                 name: "Py Delhi",
                 logoUrl: PyDelhi.src,
+                url: "#",
+                description: ""
             },
             {
                 name: "Software Freedom Law Center",
                 logoUrl: SFLC.src,
+                url: "#",
+                description: ""
             },
             {
                 name: "Ubuntu DDE",
                 logoUrl: UbuntuDDE.src,
+                url: "#",
+                description: ""
             }
         ]
     }
