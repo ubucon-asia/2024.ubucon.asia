@@ -3,6 +3,18 @@ import logoPlaceHolder from "@assets/logo_placeholder.svg";
 import CanonicalUbuntuLogo from "@assets/sponsors/canonical_ubuntu.svg";
 import OnlyOffice from "@assets/sponsors/onlyoffice.svg";
 import FossUnited from "@assets/sponsors/fossunited.svg";
+import Alias from "@assets/community_partners/alias.svg";
+import AWSUGJaipur from "@assets/community_partners/awsugjpr.svg";
+import CloudNativeHoogly from "@assets/community_partners/cn_hooghly.svg";
+import CloudNativeCommunityGroupsJaipur from "@assets/community_partners/cncg_jpr.svg";
+import DebianIndia from "@assets/community_partners/debian_india.svg";
+import GDSCAKGEC from "@assets/community_partners/gdsc_akgec.svg";
+import GDCSJECRC from "@assets/community_partners/gdsc_jecrc.svg";
+import HugJaipur from "@assets/community_partners/hug_jaipur.svg";
+import OCD from "@assets/community_partners/ocd.svg";
+import PyDelhi from "@assets/community_partners/pydelhi.svg";
+import SFLC from "@assets/community_partners/sflc.svg";
+import UbuntuDDE from "@assets/community_partners/ubuntu_dde.svg";
 
 export const sponsors = [
     {
@@ -93,12 +105,54 @@ export const sponsors = [
         sizeOnSmallScreen: 1 as ColSize,
         showPopup: false,
         list: [
-            // {
-            //     name: "Community partner",
-            //     logoUrl: logoPlaceHolder.src,
-            //     url: "#",
-            //     description: "#"
-            // }
+            {
+                name: "Alias",
+                logoUrl: Alias.src,
+            },
+            {
+                name: "AWS User Group Jaipur",
+                logoUrl: AWSUGJaipur.src,
+            },
+            {
+                name: "Cloud Native Hoogly",
+                logoUrl: CloudNativeHoogly.src,
+            },
+            {
+                name: "Cloud Native Community Groups Jaipur",
+                logoUrl: CloudNativeCommunityGroupsJaipur.src,
+            },
+            {
+                name: "Debian India",
+                logoUrl: DebianIndia.src,
+            },
+            {
+                name: "GDSC AKGEC",
+                logoUrl: GDSCAKGEC.src,
+            },
+            {
+                name: "GDSC JECRC",
+                logoUrl: GDCSJECRC.src,
+            },
+            {
+                name: "Hug Jaipur",
+                logoUrl: HugJaipur.src,
+            },
+            {
+                name: "Open Source Community Development",
+                logoUrl: OCD.src,
+            },
+            {
+                name: "Py Delhi",
+                logoUrl: PyDelhi.src,
+            },
+            {
+                name: "Software Freedom Law Center",
+                logoUrl: SFLC.src,
+            },
+            {
+                name: "Ubuntu DDE",
+                logoUrl: UbuntuDDE.src,
+            }
         ]
     }
 ]
