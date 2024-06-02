@@ -13,7 +13,7 @@ const featuredSessions = event.results[0].contributions.filter((session: any) =>
 for (const session of featuredSessions) {
     for (const speaker of session.speakers) {
         featuredSpeakers.push({
-            name: speaker.fullName,
+            name: `${speaker.first_name} ${speaker.last_name}`,
             personId: speaker.person_id,
             title: session.title,
             url: session.url,
@@ -39,11 +39,11 @@ for (const session of featuredSessions) {
                             alt=""
                         />
                         <div class="p-media-object__details">
-                                <h3 class="p-media-object__title">
-                                    <a>{speaker.name}</a>
+                                <h3>
+                                    <a href={speaker.url}>{speaker.name}</a>
                                 </h3>
                                 <p class="p-media-object__content">
-                                    <a>{speaker.title}</a>
+                                    <a href={speaker.url}>{speaker.title}</a>
                                 </p>
                             <ul class="p-media-object__meta-list" />
                         </div>
