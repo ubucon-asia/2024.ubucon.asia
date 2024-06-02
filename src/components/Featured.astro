@@ -1,0 +1,60 @@
+---
+import { Strip, Col, Row } from "@canonical/react-components";
+import { featuredSessionIds, speakerPersonIdPictureMap } from "@data/featured";
+const eventInfoApiUrl =
+    "https://events.canonical.com/export/event/47.json?detail=contributions&pretty=yes:";
+let featuredSpeakers = [];
+
+const eventData = await fetch(eventInfoApiUrl);
+const event = await eventData.json();
+const featuredSessions = event.results[0].contributions.filter((session: any) =>
+    featuredSessionIds.includes(session.db_id),
+);
+for (const session of featuredSessions) {
+    for (const speaker of session.speakers) {
+        featuredSpeakers.push({
+            name: speaker.fullName,
+            personId: speaker.person_id,
+            title: session.title,
+            url: session.url,
+            room: session.roomFullname,
+            image: speakerPersonIdPictureMap[
+                `k${speaker.person_id.toString()}`
+            ],
+        });
+    }
+}
+---
+
+<Strip bordered>
+    <h4>Featured speakers</h4>
+    <Row>
+        {
+            featuredSpeakers.map((speaker) => (
+                <Col size={4} medium={3}>
+                    <div class="p-media-object--large">
+                        <img
+                            src={speaker.image.src}
+                            class="p-media-object__image is-round"
+                            alt=""
+                        />
+                        <div class="p-media-object__details">
+                                <h3 class="p-media-object__title">
+                                    <a>{speaker.name}</a>
+                                </h3>
+                                <p class="p-media-object__content">
+                                    <a>{speaker.title}</a>
+                                </p>
+                            <ul class="p-media-object__meta-list" />
+                        </div>
+                    </div>
+                </Col>
+            ))
+        }
+    </Row>
+    <Row>
+        <Col size={12}>
+            <a href="" class="p-button">View more speakers</a>
+        </Col>
+    </Row>
+</Strip>
