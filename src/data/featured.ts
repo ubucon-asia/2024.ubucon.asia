@@ -6,7 +6,8 @@ import speaker504 from "@assets/speaker_picture/504.jpeg";
 export const featuredSessionIds = [
    371, 390
 ];
-
+export const sessionListApiUrl = "https://events.canonical.com/export/event/47.json?detail=contributions&pretty=yes:";
+export const sessionListUrl = "https://events.canonical.com/event/47/contributions/";
 interface ImageMapType {
     [key: string]: ImageMetadata
   };

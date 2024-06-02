@@ -1,11 +1,10 @@
 ---
 import { Strip, Col, Row } from "@canonical/react-components";
-import { featuredSessionIds, speakerPersonIdPictureMap } from "@data/featured";
-const eventInfoApiUrl =
-    "https://events.canonical.com/export/event/47.json?detail=contributions&pretty=yes:";
+import { featuredSessionIds, speakerPersonIdPictureMap, sessionListApiUrl, sessionListUrl } from "@data/featured";
+
 let featuredSpeakers = [];
 
-const eventData = await fetch(eventInfoApiUrl);
+const eventData = await fetch(sessionListApiUrl);
 const event = await eventData.json();
 const featuredSessions = event.results[0].contributions.filter((session: any) =>
     featuredSessionIds.includes(session.db_id),
@@ -54,7 +53,7 @@ for (const session of featuredSessions) {
     </Row>
     <Row>
         <Col size={12}>
-            <a href="" class="p-button">View more speakers</a>
+            <a href={sessionListUrl} class="p-button">View more speakers</a>
         </Col>
     </Row>
 </Strip>
