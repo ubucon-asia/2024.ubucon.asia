@@ -85,8 +85,8 @@ export const config = {
                     url: 'https://events.canonical.com/event/47/'
                 },
                 {
-                    label: 'Schedules (TBD)',
-                    url: 'https://events.canonical.com/event/47/ngtimetable/'
+                    label: 'Schedules',
+                    url: 'https://events.canonical.com/event/47/timetable'
                 },
                 {
                     label: 'Social events',
