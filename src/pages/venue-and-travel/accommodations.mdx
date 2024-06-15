@@ -3,6 +3,8 @@ layout: /src/layouts/MarkdownLayout.astro
 title: Accommodations
 description: Find accomodations nearby from our curated list
 ---
+import { Image } from 'astro:assets';
+
 import HotelGrandMaplePic from "@assets/hotelgrandmaple.jpg"
 
 Looking for where to stay during the evnet? Find and book your accomodation today from our curated list of accomodations below!
@@ -11,7 +13,7 @@ Looking for where to stay during the evnet? Find and book your accomodation toda
 
 ## Grand Maple Hotel
 
-![](HotelGrandMaplePic.src)
+<Image src={Image} alt="Hotel Grand Maple" />
 
 We have partnered with Grand Maple Hotel in Jaipur to provide more affordable pricing for participants. 
 For the best pricing and discount, Do give them our reference (UbuCon Asia) and CC: travel@ubucon.asia
