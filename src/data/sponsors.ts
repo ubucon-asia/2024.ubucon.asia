@@ -3,6 +3,8 @@ import logoPlaceHolder from "@assets/logo_placeholder.svg";
 import CanonicalUbuntuLogo from "@assets/sponsors/canonical_ubuntu.svg";
 import OnlyOffice from "@assets/sponsors/onlyoffice.svg";
 import FossUnited from "@assets/sponsors/fossunited.svg";
+import JECRC from "@assets/education_partners/jecrc.png";
+import JIC from "@assets/education_partners/jic.png";
 import Alias from "@assets/community_partners/alias.svg";
 import AWSUGJaipur from "@assets/community_partners/awsugjpr.svg";
 import CloudNativeHoogly from "@assets/community_partners/cn_hooghly.svg";
@@ -95,6 +97,27 @@ export const sponsors = [
                 logoUrl: FossUnited.src,
                 url: "https://fossunited.org/",
                 description: "FOSS United is a non-profit foundation that aims at promoting and strengthening the Free and Open Source Software (FOSS) ecosystem in India."
+            }
+        ]
+    },
+    {
+        sponsorLevelName: "Education Partners",
+        sizeOnLargeScreen: 2 as ColSize,
+        sizeOnMediumScreen: 2 as ColSize,
+        sizeOnSmallScreen: 1 as ColSize,
+        showPopup: true,
+        list: [
+            {
+                name: "JECRC University",
+                logoUrl: JECRC.src,
+                url: "https://jecrcuniversity.edu.in/",
+                description: "JECRC University is an Indian private university located in Jaipur, Rajasthan. It is established by the Act No. 15 of 2012 of Rajasthan Legislative Assembly. It offers several undergraduate and postgraduate-level courses and PhD programmes in science and technology, arts, commerce, health and medicine, law, etc."
+            },
+            {
+                name: "JECRC Incubation Center",
+                logoUrl: JIC.src,
+                url: "https://jecrcincubation.com/",
+                description: "JIC assists start-ups with converting their early-stage companies into highly scalable, commercially viable businesses. JIC envisions fostering an entrepreneur-friendly culture around academics & research."
             }
         ]
     },
