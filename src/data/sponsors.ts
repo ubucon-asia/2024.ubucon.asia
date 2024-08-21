@@ -17,6 +17,7 @@ import OCD from "@assets/community_partners/ocd.svg";
 import PyDelhi from "@assets/community_partners/pydelhi.svg";
 import SFLC from "@assets/community_partners/sflc.svg";
 import UbuntuDDE from "@assets/community_partners/ubuntu_dde.svg";
+import UbuntuKorea from "@assets/sponsors/ubuntukorea.svg";
 
 export const sponsors = [
     {
@@ -97,6 +98,12 @@ export const sponsors = [
                 logoUrl: FossUnited.src,
                 url: "https://fossunited.org/",
                 description: "FOSS United is a non-profit foundation that aims at promoting and strengthening the Free and Open Source Software (FOSS) ecosystem in India."
+            },
+            {
+                name: "Ubuntu Korea Community",
+                logoUrl: UbuntuKorea.src,
+                url: "https://ubuntu-kr.org/",
+                description: "Ubuntu Korea Community, established late 2005 is an Ubuntu Local community verified by Ubuntu Community Council. We organize various activities such as: Providing online community and documentation service, Organizing events like seminars and conferences, Group studies and projects on Ubuntu and its related open source technologies."
             }
         ]
     },
