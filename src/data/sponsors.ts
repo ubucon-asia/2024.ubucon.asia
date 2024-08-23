@@ -18,6 +18,7 @@ import PyDelhi from "@assets/community_partners/pydelhi.svg";
 import SFLC from "@assets/community_partners/sflc.svg";
 import UbuntuDDE from "@assets/community_partners/ubuntu_dde.svg";
 import UbuntuKorea from "@assets/sponsors/ubuntukorea.svg";
+import CDAC from "@assets/sponsors/cdac.png";
 
 export const sponsors = [
     {
@@ -42,12 +43,12 @@ export const sponsors = [
         sizeOnSmallScreen: 3 as ColSize,
         showPopup: true,
         list: [
-            // {
-            //     name: "Become a sponsor!",
-            //     logoUrl: logoPlaceHolder.src,
-            //     url: "/sponsors/become-a-sponsor",
-            //     description: "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!"
-            // },
+            {
+                name: "Centre for Development of Advanced Computing (C-DAC)",
+                logoUrl: CDAC.src,
+                url: "https://cdac.in/",
+                description: "Centre for Development of Advanced Computing (C-DAC) is the premier R&D organization of the Ministry of Electronics and Information Technology (MeitY) for carrying out R&D in IT, Electronics and associated areas. Different areas of C-DAC, had originated at different times, many of which came out as a result of identification of opportunities."
+            },
         ]
     },
     {
