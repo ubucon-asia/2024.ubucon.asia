@@ -18,7 +18,7 @@ import PyDelhi from "@assets/community_partners/pydelhi.svg";
 import SFLC from "@assets/community_partners/sflc.svg";
 import UbuntuDDE from "@assets/community_partners/ubuntu_dde.svg";
 import UbuntuKorea from "@assets/sponsors/ubuntukorea.svg";
-import CDAC from "@assets/sponsors/cdac.png";
+import CDAC from "@assets/sponsors/cdac.jpg";
 
 export const sponsors = [
     {
@@ -47,7 +47,7 @@ export const sponsors = [
                 name: "Centre for Development of Advanced Computing (C-DAC)",
                 logoUrl: CDAC.src,
                 url: "https://cdac.in/",
-                description: "Centre for Development of Advanced Computing (C-DAC) is the premier R&D organization of the Ministry of Electronics and Information Technology (MeitY) for carrying out R&D in IT, Electronics and associated areas. Different areas of C-DAC, had originated at different times, many of which came out as a result of identification of opportunities."
+                description: "Centre for Development of Advanced Computing (C-DAC) is the premier institute in India which concentrates on research and development in advanced computing areas using FOSS(Free and Open-source software)"
             },
         ]
     },
