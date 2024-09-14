@@ -112,12 +112,29 @@ export const config = {
             ]
         },
         {
-            label: 'News',
-            url: 'https://blog.ubucon.asia/'
-        },
-        {
-            label: 'Docs',
-            url: 'https://docs.ubucon.asia'
+            label: 'Links',
+            items: [
+                {
+                    label: 'News',
+                    url: 'https://blog.ubucon.asia/'
+                },
+                {
+                    label: 'Docs',
+                    url: 'https://docs.ubucon.asia'
+                },
+                {
+                    label: 'Chat',
+                    url: 'https://docs.ubucon.asia/chat/'
+                },
+                {
+                    label: 'Photo album (Community)',
+                    url: 'https://photos.app.goo.gl/EMVw8zJQqgRvDqzaA'
+                },
+                {
+                    label: 'Photo album (Official)',
+                    url: 'https://photos.app.goo.gl/vFeFiPakaFdwjQJN6'
+                }
+            ]
         }
     ],
     navigationRight: [
